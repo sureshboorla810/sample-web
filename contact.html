@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Introduction</title>
+</head>
+<body>
+    <h1>please fill yhe form to get in touch with me.</h1>
+<form action="">
+    <fieldset>
+        <legend>Basic Information</legend>
+    <label for="name">Name</label>
+    <input type="text" name="name" required placeholder="enter full name" autofocus /> <br />
+    <label for="email">Email</label>
+    <input type="email" name="email" placeholder="enter email" /> <br />
+    <label for="age">Age</label>
+    <input type="number" placeholder="enter age" name="age" min="18" max="85" required /> <br />
+    <label for="password">password</label>
+    <input type="password" placeholder="enter password" name="password" /> <br />
+    <label for="phone">phone number</label>
+    <input type="tel" placeholder="enter phone number" name="phone" /> <br />
+    <label for="reason">reason for contact</label>
+    <select name="" id="">
+        <optgroup label="business">
+        <option value="job releted">job releted</option>
+        <option value="business releted">business releted</option>
+        </optgroup>
+        <optgroup label="personal">
+        <option value="personal">personal</option>
+        <option value="old friend">old friend</option>
+        </optgroup>
+    </select><br>
+    <label for="browser">chooose browser</label>
+    <input list="browser" name="browser" />
+    <datalist id="browser">
+        <option value="edge">edge</option>
+        <option value="firefox">firefox</option>
+        <option value="google crome">google crome</option>
+    </datalist> <br>
+</fieldset>
+<fieldset>
+    <legend>Other Information</legend>
+    <h4>what is your fav technology</h4>
+    <input type="radio" name="fev-technoly" id="" value="HTML">
+    <label for="">HTML</label> <br>
+    <input type="radio" name="fev-technoly" id="" value="css">
+    <label for="">CSS</label> <br>
+    <input type="radio" name="fev-technoly" id="" value="Javascript">
+    <label for="">Javascript</label><br>
+
+    <h4>what are interested in learning</h4>
+    <input type="checkbox" name="technology1" value="react js">
+    <label for="technology1">React Js</label> <br>
+
+    <input type="checkbox" name="technology1" value="node js">
+    <label for="technology1">Node Js</label><br>
+
+    <input type="checkbox" name="technology1" value="css">
+    <label for="technology1">CSS</label><br>
+
+    <label for="message">your Message</label> <br>
+    <textarea name="message" cols="50" rows="10" id=""></textarea>
+    
+</fieldset>
+    <input type="submit"><input type="reset" value="reset">
+</form>
+</body>
+</html>
